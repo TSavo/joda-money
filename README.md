@@ -1,3 +1,11 @@
+Unoffical fork notes:
+
+This version of Joda-Money has been modified to allow for 3 OR 4 letters in the currency code. This
+became necessary when Cryptsy started listing the alt crypto-currency "Pennies" under the ticker "CENT".
+
+The only change is to the regular-expression that's used to parse the currencies in the 
+DefaultCurrencyUnitDataProvider.
+
 Joda-Money
 ----------
 
